@@ -1,4 +1,5 @@
 package com.battlesystem;
+// esta sera la clase abstracta profe, para guerrero y mago  y dragon 
 
 public abstract class Criatura {
     protected String nombre;
