@@ -23,13 +23,13 @@ public class Mago extends Criatura implements IMagico {
             System.out.println(nombre + " no tiene hechizos para lanzar.");
             return;
         }
-        
+         /// el daño magico va por 2
         int danoMagico = this.fuerza * 2; 
         
         System.out.println(nombre + " invoca " + hechizosAprendidos.get(0) + " a " + objetivo.getNombre() + ".");
         objetivo.defender(danoMagico);
     }
-
+// logica de ataque y defensa del mago
     @Override
     public void atacar(Criatura objetivo) {
         if (this.estaViva()) {

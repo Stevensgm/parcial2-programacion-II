@@ -11,14 +11,14 @@ public abstract class Criatura {
         this.salud = salud;
         this.fuerza = fuerza;
     }
-
+/// esto son los mretodos abstractos 
     public abstract void atacar(Criatura objetivo);
     public abstract void defender(int dano);
 
     public boolean estaViva() {
-        return this.salud > 0;
+        return this.salud > 0;    /// PARA SABER SI ESTA VIVA
     }
-
+/// METODOS PARA EQUIPAR Y DESEQUIPAR ARMAS
     public void equiparArma(Arma arma) {
         this.armaEquipada = arma;
     }
@@ -27,7 +27,7 @@ public abstract class Criatura {
         this.armaEquipada = null;
     }
 
-    // Getters y Setters mínimos
+    // Getters y Setters 
     public String getNombre() { return nombre; }
     public int getSalud() { return salud; }
     public void setSalud(int salud) { this.salud = salud; }

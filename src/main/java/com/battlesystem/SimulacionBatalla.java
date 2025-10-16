@@ -11,7 +11,7 @@ public class SimulacionBatalla {
         int turno = 1;
         Criatura atacante = c1;
         Criatura defensor = c2;
-
+/// cuando el que ataca vuelava , se va a una accion de vuelo 
         while (c1.estaViva() && c2.estaViva()) {
             System.out.println("\n--- Turno " + turno + " ---");
             

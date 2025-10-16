@@ -17,7 +17,7 @@ public class Dragon extends Criatura implements IVolador {
     public void aterrizar() {
         System.out.println(nombre + " aterriza pesadamente.");
     }
-
+/// esta es la logica para atacar y defender del dragon
     @Override
     public void atacar(Criatura objetivo) {
         if (!this.estaViva()) return;
@@ -34,7 +34,7 @@ public class Dragon extends Criatura implements IVolador {
 
         objetivo.defender(danoTotal);
     }
-
+/// defensa del drake 
     @Override
     public void defender(int dano) {
         int danoReducido = dano / 2;
