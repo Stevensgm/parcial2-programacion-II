@@ -1,0 +1,8 @@
+com\battlesystem\SimulacionBatalla.class
+com\battlesystem\Dragon.class
+com\battlesystem\IVolador.class
+com\battlesystem\Guerrero.class
+com\battlesystem\Criatura.class
+com\battlesystem\Mago.class
+com\battlesystem\Arma.class
+com\battlesystem\IMagico.class
